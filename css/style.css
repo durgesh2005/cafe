@@ -1,0 +1,390 @@
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f8fde6!important;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 5px 50px;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 40px;
+  font-size: 15px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* menu over here */
+
+
+.head {
+    background-image: url('H:/the Cafe/images/coffeehouse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.head span {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    font-size: 100px;
+    color: white;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-family: "Inconsolata", sans-serif;
+    transform: translate(-50%, -50%);
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 0px 40px 10px;
+    font-family: "Inconsolata", sans-serif;
+    justify-content: space-between;
+}
+
+.black {
+    background-color: black;
+    padding: 4px 10px;
+    color: white;
+}
+
+.bottom h2 {
+    color: white;
+}
+
+.bottom h2::selection {
+    background-color: #3b5997;
+}
+
+
+.container {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+ .about {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+ }
+
+.about h1 {
+    background-color: black;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+
+.about p {
+    font-family: "Inconsolata", sans-serif;
+       font-size: 18px;
+       margin: 10px 0px;
+       line-height: 30px;
+       padding: 10px;
+       text-align: justify;
+}
+
+.imp-content {
+    background-color: #f1f1f1;
+    margin:0 auto;
+    font-family: "Inconsolata", sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    padding:20px;
+    border-left:6px solid #ccc;
+    width: 100%;
+}
+
+.about img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* menu start here */
+
+.menu {
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 50%;
+}
+
+.menu img {
+    width: 100%;
+    filter:saturate(0.5);
+}
+
+.menu h1 {
+    background-color: black;
+    color: white;
+    letter-spacing: 4px;
+    width: 36%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.eat-drink {
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: "Inconsolata", sans-serif;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px 0px gray;
+}
+
+.title h2 {
+    cursor: pointer;
+    width: 50%;
+    padding: 5px;
+}
+.title h2:first-child {
+    background-color: rgb(86, 82, 82);
+    color: white;
+}
+
+.food {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding: 30px;
+}
+
+.food p {
+    padding: 8px 0px;
+}
+
+.gray {
+    font-size: 20px;
+    font-family: "Inconsolata", sans-serif;
+    color: gray;
+}
+
+/* food ends here */
+
+.drink {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding: 30px;
+}
+
+.drink p {
+    padding: 8px 0px;
+}
+
+/* menu ends here */
+
+/* where starts here */
+
+.where {
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: left;
+    width: 50%;
+}
+
+.where h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 40%;
+    padding: 10px 20px;
+}
+
+.where p {
+    font-family: "Inconsolata", sans-serif;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.where img {
+    width: 100%;
+    filter: saturate(0.3);
+}
+
+.where input {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+.where button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 14px;
+    margin-top: 12px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    color: black;
+}
+
+
+@media screen and (max-width:400px) {
+
+    
+nav {
+    padding: 5px 0px;
+}
+
+nav a {
+  padding: 14px 0px;
+  font-size: 12px;
+}
+
+
+.head {
+    margin-top: 20px;
+    height: 300px;
+}
+
+.head span {
+    top:40%;
+    font-size: 50px;
+}
+
+.bottom {
+    padding: 0px 10px 10px;
+    display: block;
+}
+
+.bottom div {
+    display: none;
+}
+
+.bottom h2 {
+    float: right;
+}
+
+
+.container {
+    margin-top: 50px;
+    padding: 0px 0px;
+}
+
+ .about {
+    text-align: center;
+    width: 100%;
+    padding: 0px 20px;
+ }
+
+.about h1 {
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.about p {
+       text-align: justify;
+}
+
+.imp-content {
+    font-size: 16px;
+    padding:20px;
+}
+
+
+.menu {
+    margin-top: 50px;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+
+.menu h1 {
+    width: 70%;
+}
+
+
+.title h2 {
+    width: 100%;
+}
+
+
+.where {
+    margin-top: 40px;
+    padding: 0px 20px;
+    width: 100%;
+}
+
+.where p {
+    text-align: justify;
+}
+.where h2 {
+    width:80%;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+.where button {
+    width: 100%;
+    margin-top: 22px;
+}
+
+
+/* food ends here */
+
+}
